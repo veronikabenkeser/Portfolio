@@ -386,10 +386,17 @@ h2 {
   color: black;
 }
 
-#linkediiin {
+#linkedin {
   color: #007bb6;
 }
 
-#twiiiitter {
+#twitter {
   color: #50E8E2;
+}
+
+.fa-twiiitter:before {
+  content: "\f099";
+}
+.fa-linkediiin-square:before{
+  content: "\f0e1";
 }
