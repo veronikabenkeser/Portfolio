@@ -245,7 +245,6 @@ textarea {
 
 #message {
   height: 100px;
-  /*     width:500px; */
   word-break: break-word;
 }
 
@@ -289,14 +288,24 @@ textarea {
 
 #contact,
 #about {
-  background-color: #E8E8E8;
+  /*   background-color:#f3efe6; */
+  /*   background-color: #E8E8E8; */
+  background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/shattered_2X_zps2bsifjyv.png");
 }
-#about .container{
-  margin:auto !important;
+
+#about .container {
+  margin: auto !important;
 }
+
+#about .container img {
+  margin-top: -50px;
+}
+
 #about {
-  display:flex;
-  min-height:100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding-bottom: 20px;
 }
 
 #summary {
@@ -309,8 +318,7 @@ h2 {
 }
 
 @media screen and (min-width: 480px) {
-  .section h2::before,
-  .section h2::after {
+  .section h2::before, .section h2::after {
     position: absolute;
     width: 80px;
     content: "";
@@ -356,9 +364,18 @@ h2 {
   z-index: 10;
   height: 100;
 }
-.icon{
-  display:inline;
-  padding:10px;
+
+.icon {
+  display: inline;
+  padding: 10px;
+}
+
+.iconsi {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  max-width: 300px !important;
+  padding-bottom: 30px;
 }
 
 .icons i {
@@ -373,6 +390,6 @@ h2 {
   color: #007bb6;
 }
 
-#twiiitter {
+#twiiiitter {
   color: #50E8E2;
 }
