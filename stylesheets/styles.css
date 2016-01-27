@@ -290,12 +290,13 @@ textarea {
 #contact,
 #about {
   background-color: #E8E8E8;
-  /*   background-color:#f3efe6; */
 }
-
+#about .container{
+  margin:auto !important;
+}
 #about {
-  padding-bottom: 100px;
-  min-height: 100%vh;
+  display:flex;
+  min-height:100%;
 }
 
 #summary {
@@ -308,7 +309,8 @@ h2 {
 }
 
 @media screen and (min-width: 480px) {
-  .section h2::before, .section h2::after {
+  .section h2::before,
+  .section h2::after {
     position: absolute;
     width: 80px;
     content: "";
@@ -354,13 +356,9 @@ h2 {
   z-index: 10;
   height: 100;
 }
-
-.icons {
-  position: absolute;
-  bottom: 0;
-  left: 45%;
-  max-width: 300px !important;
-  padding-bottom: 30px;
+.icon{
+  display:inline;
+  padding:10px;
 }
 
 .icons i {
@@ -375,6 +373,6 @@ h2 {
   color: #007bb6;
 }
 
-#twitter {
+#twiiitter {
   color: #50E8E2;
 }
