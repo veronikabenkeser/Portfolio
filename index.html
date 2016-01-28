@@ -2,182 +2,174 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="width=device-width">
-  <!--[if lt IE 9] >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9] >
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" id="nav" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      </div>
-      <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li> <a href="#about">About</a> </li>
-          <li> <a href="#projects">Projects</a> </li>
-          <li> <a href="#contact">Contact</a> </li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#projects">Projects</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class='slider'>
+        <div class="tv-pic">
+            <div class="typed-text">
+                <div class="intro-name"> </div>
+                <div class="intro-title"> </div>
+            </div>
+            <div id='scrollSection'>
+                <div class="bottom-button-container">
+                    <a href="#about" class="btn btn-circle page-scroll"> <i class="fa fa-angle-double-down fa-4x"></i> </a>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
-  <div class='slider'>
-    <div class="tv-pic">
-      <div class="typed-text">
-        <div class="intro-name"> </div>
-        <div class="intro-title"> </div>
-      </div>
-      <div id='scrollSection'>
-        <div class="bottom-button-container">
-          <a href="#about" class="btn btn-circle page-scroll"> <i class="fa fa-angle-double-down fa-4x"></i> </a>
+    <div class="content-container">
+        <div class="line animateline"></div>
+        <div class="section animateblock" id="about">
+            <h2><span>About Me</span></h2>
+            <div class="container">
+                <p class="about-me-sub">Code.Debug.Refactor.Repeat.</p>
+                <div class="inline"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/cutmypic_zpsheroiz2n.png" /> <img id="word-cloud" src="./images/wordcloud1.svg" /> </div>
+                <div class="about-me-sub">My Story</div>
+                <div style="text-align:left;">
+                    <p> I'm currently looking for a full-time position as a Full-Stack Software Engineer. I specialize in the MEAN stack with a Backbone.js front-end. However, as a self-taught developer, I've realized that the mantra of "It's not what you know, it's what you can find out. " is what actually makes developers successful. </p>
+                    <p>My story: I studied Philosophy at UCLA with the expectation of becoming an attorney. Despite scoring in the 90th percentile on the LSAT, I decided that attending law school wasn't the right choice for me. Reflecting on my studies, I realized that the classes I enjoyed the most in college included advanced symbolic logic and philosophy of language. Given the abundance of online resources in computer programming and the fact that I thought that the one computer science course I took years ago was fun -- despite being mostly about Excel and Access -- I decided that programming was a field worth exploring. Once I built my first project, I became hooked on two things: solving challenges and exploring possibilities. </p>
+                </div>
+                <div class="icons">
+                    <div class="icon"> <a href="https://github.com/veronikabenkeser" target="_blank"><i class="fa fa-giiithub fa-4x" id="github"></i></a> </div>
+                    <div class="icon"> <a href="https://www.linkedin.com/in/veronikabenkeser" target="_blank"><i class = "fa fa-linkediiin-square fa-4x"  id = "linkedin"></i></a> </div>
+                    <div class="icon"> <a href="https://twitter.com/vbenkeser" target="_blank"><i class = "fa fa-twiiitter fa-4x" id= "twitter"></i></a> </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="section animateblock" id="projects">
+            <h2><span>Projects</span></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20155827_zpsfeyqeqge.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>PollIt!</h4> </div> <a href="https://veronikabenkeser.github.io/VotingApp/" target="_blank" class="btn btn-info">about</a> <a href="https://my-polling-app.herokuapp.com/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20073444_zpskiodrtdl.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Real-Time Stock Tracker</h4> </div> <a href="https://veronikabenkeser.github.io/StockMarketApp/" target="_blank" class="btn btn-info">about</a> <a href="https://real-time-stocks.herokuapp.com/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20072359_zps1gajrjbk.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Movable Tic-Tac-Toe</h4> </div> <a href="https://veronikabenkeser.github.io/MovableTicTacToeGame/" target="_blank" class="btn btn-info">about</a> <a href="https://movable-tic-tac-toe.herokuapp.com/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20071322_zpspp3vwkhy.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>ConceptWiki</h4> </div> <a href="http://veronikabenkeser.github.io/ConceptWiki/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/pgpqXq/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/70b1d9e3-81df-416f-9b04-ae79f3544e18_zpsqvijlmyo.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Pomodoro Timer</h4> </div> <a href="http://veronikabenkeser.github.io/Pomodoro-Timer/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/xwGoKj/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20180805_zpsxua6h0i0.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Twitch.TV</h4> </div> <a href="http://veronikabenkeser.github.io/Twitch-TV/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/PqxYvb/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20180352_zpsxq5hiyaj.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Angular Calculator</h4> </div> <a href="http://veronikabenkeser.github.io/Angular-Calculator/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/dYMVoM/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20104046_zpsvyxli4yf.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Camper News</h4> </div> <a href="http://veronikabenkeser.github.io/Camper-News/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/PqVLNw/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-4 portfolio-item">
+                        <div class="item-top">
+                            <a href="http://veronikabenkeser.github.io/RandomQuoteMachine/" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20104454_zpswodwwmda.png" class="img-responsive" alt="project-pic"> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Local Weather App</h4> </div> <a href="http://veronikabenkeser.github.io/LocalWeather/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/vOQyyw/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
+                        <div class="item-top">
+                            <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-27%20091525_zpsr9jwai7e.png" class="img-responsive" alt=""> </a>
+                        </div>
+                        <div class="portfolio-caption">
+                            <div class='title-cont'>
+                                <h4>Random Quote Machine</h4> </div> <a href="http://veronikabenkeser.github.io/RandomQuoteMachine/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/YXOrOW/" target="_blank" class='btn btn-success'>try it</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section animateblock" id="contact">
+            <h2><span>Contact</span></h2>
+            <h3>Send me a message</h3>
+            <form action="//formspree.io/email@gmail.com" role="form" method="POST">
+                <div class="field" style="float:left;">
+                    <input type="text" id="name" value="Your name" name="name"> </div>
+                <div class="field right" style="float:left;">
+                    <input type="email" value="Your email" id="email" name="_replyto"> </div>
+                <div style="clear:both;">&nbsp;</div>
+                <div>
+                    <textarea id="message" name="user_message">Your message here...</textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" class="btn btn-primary" id="submit"><i class='fa fa-paper-plane fa-2x'></i>Submit</button>
+                </div>
+            </form>
+        </div>
     </div>
-  </div>
-  <div class="content-container">
-    <div class="line animateline"></div>
-    <div class="section animateblock" id="about">
-      <h2><span>About Me</span></h2>
-      <div class="container">
-        <div>
-          <p class="about-me-sub">Code.Debug.Refactor.Repeat.</p>
-          <div class="inline"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/cutmypic_zpsheroiz2n.png" /> <img id="word-cloud" src="./images/wordcloud1.svg" /> </div>
-        </div>
-        <div>
-          <p class="about-me-sub">My Story</p>
-          <div style="text-align:left;">
-            <p> I'm currently looking for a full-time position as a Full-Stack Software Engineer. I specialize in the MEAN stack with a Backbone.js front-end. However, as a self-taught developer, I've realized that the mantra of "It's not what you know, it's
-              what you can find out. " is what actually makes developers successful. </p>
-            <p>My story: I studied Philosophy at UCLA with the expectation of becoming an attorney. Despite scoring in the 90th percentile on the LSAT, I decided that attending law school wasn't the right choice for me. Reflecting on my studies, I realized
-              that the classes I enjoyed the most in college included advanced symbolic logic and philosophy of language. Given the abundance of online resources in computer programming and the fact that I thought that the one computer science course
-              I took years ago was fun -- despite being mostly about Excel and Access -- I decided that programming was a field worth exploring. Once I built my first project, I became hooked on two things: solving challenges and exploring possibilities.
-              </p>
-          </div>
-        </div>
-        <div class="icons">
-          <div class="icon"> <a href="https://github.com/veronikabenkeser" target="_blank"><i class="fa fa-giiithub fa-4x" id="github"></i></a> </div>
-          <div class="icon"> <a href="https://www.linkedin.com/in/veronikabenkeser" target="_blank"><i class = "fa fa-linkediiin-square fa-4x"  id = "linkedin"></i></a> </div>
-          <div class="icon"> <a href="https://twitter.com/vbenkeser" target="_blank"><i class = "fa fa-twiiitter fa-4x" id= "twitter"></i></a> </div>
-        </div>
-      </div>
-    </div>
-    <div class="section animateblock" id="projects">
-      <h2><span>Projects</span></h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20155827_zpsfeyqeqge.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>PollIt!</h4> </div> <a href="https://veronikabenkeser.github.io/VotingApp/" target="_blank" class="btn btn-info">about</a> <a href="https://my-polling-app.herokuapp.com/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20073444_zpskiodrtdl.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Real-Time Stock Tracker</h4> </div> <a href="https://veronikabenkeser.github.io/StockMarketApp/" target="_blank" class="btn btn-info">about</a> <a href="https://real-time-stocks.herokuapp.com/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20072359_zps1gajrjbk.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Movable Tic-Tac-Toe</h4> </div> <a href="https://veronikabenkeser.github.io/MovableTicTacToeGame/" target="_blank" class="btn btn-info">about</a> <a href="https://movable-tic-tac-toe.herokuapp.com/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20071322_zpspp3vwkhy.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>ConceptWiki</h4> </div> <a href="http://veronikabenkeser.github.io/ConceptWiki/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/pgpqXq/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/70b1d9e3-81df-416f-9b04-ae79f3544e18_zpsqvijlmyo.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Pomodoro Timer</h4> </div> <a href="http://veronikabenkeser.github.io/Pomodoro-Timer/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/xwGoKj/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20180805_zpsxua6h0i0.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Twitch.TV</h4> </div> <a href="http://veronikabenkeser.github.io/Twitch-TV/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/PqxYvb/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20180352_zpsxq5hiyaj.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Angular Calculator</h4> </div> <a href="http://veronikabenkeser.github.io/Angular-Calculator/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/dYMVoM/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20104046_zpsvyxli4yf.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Camper News</h4> </div> <a href="http://veronikabenkeser.github.io/Camper-News/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/PqVLNw/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-4 portfolio-item">
-            <div class="item-top">
-              <a href="http://veronikabenkeser.github.io/RandomQuoteMachine/" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i358.photobucket.com/albums/oo27/picturesqueworlds/Screenshot%20from%202016-01-21%20104454_zpswodwwmda.png" class="img-responsive" alt="project-pic"> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Local Weather App</h4> </div> <a href="http://veronikabenkeser.github.io/LocalWeather/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/vOQyyw/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-          <div class="col-xs-12 col-md-4 col-sm-6 portfolio-item">
-            <div class="item-top">
-              <a href="" target="_blank" class="portfolio-link" data-toggle="modal"> <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-27%20091525_zpsr9jwai7e.png" class="img-responsive" alt=""> </a>
-            </div>
-            <div class="portfolio-caption">
-              <div class='title-cont'>
-                <h4>Random Quote Machine</h4> </div> <a href="http://veronikabenkeser.github.io/RandomQuoteMachine/" target="_blank" class="btn btn-info">about</a> <a href="http://codepen.io/veronikabenkeser/full/YXOrOW/" target="_blank" class='btn btn-success'>try it</a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section animateblock" id="contact">
-      <h2><span>Contact</span></h2>
-      <h3>Send me a message</h3>
-      <form action="//formspree.io/email@gmail.com" role="form" method="POST">
-        <div class="field" style="float:left;">
-          <input type="text" id="name" value="Your name" name="name"> </div>
-        <div class="field right" style="float:left;">
-          <input type="email" value="Your email" id="email" name="_replyto"> </div>
-        <div style="clear:both;">&nbsp;</div>
-        <div>
-          <textarea id="message" name="user_message">Your message here...</textarea>
-        </div>
-        <div class="submit-button">
-          <button type="submit" class="btn btn-primary" id="submit"><i class='fa fa-paper-plane fa-2x'></i>Submit</button>
-        </div>
-      </form>
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-  <script src="javascripts/scale.fix.js"></script>
-  <script src="javascripts/portfolio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/portfolio.js"></script>
 </body>
 
 </html>
