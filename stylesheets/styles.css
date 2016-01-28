@@ -92,13 +92,10 @@
     font-size: 1em;
   }
   #word-cloud {
-   display:hidden;
+   display:none;
   }
   .about-me-sub {
     font-size: 23px !important;
-  }
-  .phone-hidden{
-    display:hidden;
   }
 }
 
