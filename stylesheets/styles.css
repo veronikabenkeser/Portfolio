@@ -92,13 +92,13 @@
     font-size: 1em;
   }
   #word-cloud {
-    width:300px !important;
-    height: auto !important;
-    margin: 0;
-    padding: 0;
+   display:hidden;
   }
   .about-me-sub {
     font-size: 23px !important;
+  }
+  .phone-hidden{
+    display:hidden;
   }
 }
 
@@ -418,6 +418,7 @@ h2 {
 
 #word-cloud {
   height: 550px;
+  padding-top:40px;
 }
 
 .about-me-sub {
