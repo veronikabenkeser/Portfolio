@@ -91,12 +91,6 @@
   #mynavbar a {
     font-size: 1em;
   }
-  #word-cloud {
-    height: 280px !important;
-    background-color:red;
-    margin: 0;
-    padding: 0;
-  }
   .about-me-sub {
     font-size: 23px !important;
   }
