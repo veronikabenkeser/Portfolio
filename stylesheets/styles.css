@@ -92,7 +92,8 @@
     font-size: 1em;
   }
   #word-cloud {
-    height: 200px !important;
+    width:340px !important;
+    height: auto !important;
     background-color:red;
     margin: 0;
     padding: 0;
