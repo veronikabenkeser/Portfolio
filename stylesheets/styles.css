@@ -4,6 +4,7 @@
   position: relative;
   padding-top: 20px;
   padding-bottom: 10px;
+  padding-top: 40px;
 }
 
 .section.animated {
@@ -83,12 +84,20 @@
   font-size: 50px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
   .typed-text>div {
     font-size: 2.1em;
   }
   #mynavbar a {
     font-size: 1em;
+  }
+  #word-cloud {
+    height: 200px !important;
+    margin: 0;
+    padding: 0;
+  }
+  .about-me-sub {
+    font-size: 23px !important;
   }
 }
 
@@ -116,7 +125,6 @@
 
 .slider {
   position: absolute;
-  /*   z-index: 1; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -170,7 +178,6 @@ textarea {
   -moz-box-sizing: border-box;
   border: 1px solid #999;
   border-radius: 2px;
-  /*margin: auto;*/
   margin-left: 10px;
 }
 
@@ -288,22 +295,20 @@ textarea {
 
 #contact,
 #about {
-  /*   background-color:#f3efe6; */
-  /*   background-color: #E8E8E8; */
-  background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/shattered_2X_zps2bsifjyv.png");
+  background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/shattered_2X_zps2bsifjyv.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #about .container {
-  /*margin: auto !important;*/
-}
-
-#about .container img {
-  margin-top: -50px;
+  margin: auto !important;
 }
 
 #about {
-  /*display: flex;*/
-  /*flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   padding-bottom: 20px;
 }
@@ -325,7 +330,7 @@ h2 {
     border-top: 2px solid;
     border-bottom: 2px solid;
     height: 8px;
-    top: 53px;
+    top: 73px;
   }
   .section h2::before {
     margin-left: -90px;
@@ -397,10 +402,23 @@ h2 {
 .fa-twiiitter:before {
   content: "\f099";
 }
-.fa-linkediiin-square:before{
-  content: "\f08c";
+
+.fa-linkediiin-square:before {
+  content: "\f0e1";
 }
 
-.fa-giiithub:before{
-  content:"\f09b";
+.fa-giiithub:before {
+  content: "\f09b";
+}
+
+.inline {
+  display: inline-block;
+}
+
+#word-cloud {
+  height: 550px;
+}
+
+.about-me-sub {
+  font-size: 2.7em;
 }
