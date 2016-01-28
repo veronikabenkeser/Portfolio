@@ -91,13 +91,13 @@
   #mynavbar a {
     font-size: 1em;
   }
-  #word-cloud {
-    width:340px !important;
-    height: auto !important;
-    background-color:red;
-    margin: 0;
-    padding: 0;
-  }
+  /*#word-cloud {*/
+  /*  width:340px !important;*/
+  /*  height: auto !important;*/
+  /*  background-color:red;*/
+  /*  margin: 0;*/
+  /*  padding: 0;*/
+  /*}*/
   .about-me-sub {
     font-size: 23px !important;
   }
@@ -418,7 +418,7 @@ h2 {
 }
 
 #word-cloud {
-  height: 550px;
+  /*height: 550px;*/
 }
 
 .about-me-sub {
