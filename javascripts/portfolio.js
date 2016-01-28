@@ -15,7 +15,7 @@
 
     showName(".intro-name", "Hi, I'm Veronika Benkeser", 0, 70);
     setTimeout(function() {
-      showName(".intro-title", "Aspiring Software Developer", 0, 90);
+      showName(".intro-title", "Web Developer", 0, 90);
     }, 3700);
 
     $window.on('scroll resize', animate);
