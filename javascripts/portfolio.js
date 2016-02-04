@@ -1,5 +1,5 @@
 (function() {
-  $(document).ready(function() {
+  $(window).load(function() {
 
     var $animation_elements = $('.section');
     $animation_elements.push($('.line'));
