@@ -26,7 +26,8 @@
       var wintop = $window.scrollTop();
       if (wintop > 0) {
         $('#nav').css('background-color', 'black');
-      } else {
+      }
+      else {
         $('#nav').css('background-color', 'rgba(255, 255, 255, 0.5)');
       }
 
@@ -47,7 +48,7 @@
 
     $("#scrollSection").click(function() {
       $("html, body").animate({
-        scrollTop: $("#about").offset().top-60
+        scrollTop: $("#about").offset().top - 60
       }, 500);
     });
 
