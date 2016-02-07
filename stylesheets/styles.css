@@ -111,11 +111,11 @@ form {
 
 .slider {
     position: absolute;
-    opacity: 0.9;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     right: 0;
     bottom: 0;
     background-image: url(../images/computer.jpg);
+    opacity: 0.9;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
