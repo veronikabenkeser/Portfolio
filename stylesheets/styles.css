@@ -108,8 +108,8 @@ form {
     height: 100%;
     width: 100%
 }
-.transparent {
-    background:rgba(255,255,255,0.1);
+.tv-pic {
+background:rgba(255,255,255,0.5);
 }
 .slider {
     position: absolute;
